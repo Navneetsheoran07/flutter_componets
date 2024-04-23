@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_componets/Screens/SignInScreen.dart';
+import 'package:flutter_componets/Screens/SignUpScreen.dart';
 
 import 'package:flutter_componets/Widget/DateField.dart';
 import 'package:flutter_componets/Widget/PasswordInput.dart';
@@ -26,8 +28,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
      debugShowCheckedModeBanner: false,
-   home:AnimatedGradientBackground(),
-
+ //  home:SignInScreen(),
+home: SignUpScreen(),
 
     );
   }
