@@ -3,6 +3,7 @@ import 'package:flutter_componets/Screens/SignInScreen.dart';
 import 'package:flutter_componets/Screens/SignUpScreen.dart';
 
 import 'package:flutter_componets/Widget/DateField.dart';
+import 'package:flutter_componets/Widget/ImageSlider.dart';
 import 'package:flutter_componets/Widget/PasswordInput.dart';
 
 import 'BackGround/AnimatedGradientBackground.dart';
@@ -29,8 +30,8 @@ class MyApp extends StatelessWidget {
       ),
      debugShowCheckedModeBanner: false,
  //  home:SignInScreen(),
-home: SignUpScreen(),
-
+//home: SignUpScreen(),
+home: ImageSliderComponent()
     );
   }
 }
